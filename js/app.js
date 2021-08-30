@@ -15,7 +15,7 @@ weatherResult.textContent =''
 //   weathers.forEach(wether =>{
       const div = document.createElement('div')
       div.innerHTML = `<h3>${weathers.name} ${weathers.sys.country}</h3>
-      <h5>${Math.round(weathers.main.temp-272)}C</h5>`
+      <h5>${Math.round(weathers.main.temp-272)}° C</h5>`
     
       weatherResult.appendChild(div)
 //   })
